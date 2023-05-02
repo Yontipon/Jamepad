@@ -1,9 +1,6 @@
 name: Compile and deploy release artifacts
 
 on:
-  push:
-    branches:
-      - WorkflowTest
   release:
     types: [published]
 
